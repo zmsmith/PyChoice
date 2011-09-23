@@ -9,8 +9,8 @@ setup(name='pychoice',
       author_email='zachmsmith@gmail.com',
       packages=find_packages(),
       entry_points={
-          'choose': [
-              'fab = choice:choose',
+          'console_scripts': [
+              'choose = choice:choose',
           ]
       },
       
